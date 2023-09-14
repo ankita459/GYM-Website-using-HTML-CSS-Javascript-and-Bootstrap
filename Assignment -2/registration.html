@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - GYM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom CSS for the "Register for Our Gym" section */
+        .register-section {
+            background-image: url('https://img.freepik.com/free-photo/exercise-machines-gym-without-people_637285-8444.jpg?w=1060&t=st=1694099011~exp=1694099611~hmac=dfbcf8f40cd696d2403edce0630f8698391ae55665fc6ee2b824a5f120ed6031'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .section-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .section-description {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .btn-primary {
+            background-color: #f8b400;
+            border-color: #f8b400;
+            font-weight: bold;
+            padding: 12px 24px;
+            font-size: 24px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #ffcc29;
+            border-color: #ffcc29;
+        }
+        /* Custom CSS for the registration form */
+        .registration-form {
+            background-color: #f8f8f8;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .btn-primary {
+            background-color: #f8b400;
+            border-color: #f8b400;
+            font-weight: bold;
+            padding: 12px 24px;
+            font-size: 18px;
+        }
+
+        .btn-primary:hover {
+            background-color: #ffcc29;
+            border-color: #ffcc29;
+        }
+    </style>
+</head>
+<body>
+
+     <!-- Your HTML code here -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">GYM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registration.html">Registration</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Register Section -->
+    <section class="register-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h1 class="section-title">Register for Our Gym</h1>
+                    <p class="section-description">Get started on your fitness journey!</p>
+                    <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- Registration Form Section -->
+     <section class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 registration-form">
+                <h2>Registration Form</h2>
+                <form id="registration-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 GYM All Rights Reserved</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

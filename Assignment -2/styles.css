@@ -1,0 +1,187 @@
+/* Add your custom styles here */
+
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .feature-item {
+    margin-bottom: 40px;
+  }
+  
+  .feature-item i {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    background-color: #333; /* Dark background color */
+}
+
+.navbar-brand {
+    color: #fff; /* White text color */
+    font-size: 24px; /* Adjust the font size */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for the toggle icon */
+}
+
+.navbar-nav {
+    margin-right: 20px; /* Add some right margin to the nav links */
+}
+
+.nav-link {
+    color: #fff; /* White text color */
+    font-weight: bold; /* Make the text bold */
+    margin-right: 20px; /* Add right margin between links */
+    transition: color 0.3s; /* Add a smooth color transition */
+}
+
+.nav-link:hover {
+    color: #f8b400; /* Change color on hover */
+}
+/* Custom styles for the hero section */
+.hero-section {
+    background-image: url('https://img.freepik.com/free-photo/colorful-sport-composition-with-gym-elements_23-2148000577.jpg?w=1060&t=st=1694094843~exp=1694095443~hmac=2546e07a42afd00482261c786c61d3f35c6298c5460a45785127bc3cfb2965cf');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn-primary {
+    background-color: #f8b400;
+    border-color: #f8b400;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #ffcc29;
+    border-color: #ffcc29;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+/* Custom styles for the feature section */
+.feature-section {
+    background-color: #f8b400; /* Background color for the section */
+    padding: 60px 0;
+}
+
+.feature-section h2 {
+    text-align: center;
+    color: #333; /* Text color for the heading */
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* Background color for feature items */
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.feature-item i {
+    font-size: 40px;
+    color: #f8b400; /* Icon color */
+    margin-bottom: 10px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    color: #333; /* Text color for feature titles */
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #666; /* Text color for feature descriptions */
+}
+
+/* Custom styles for the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Style for the copyright symbol */
+.copyright-symbol {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Custom styles for the About Us page */
+body {
+    background-color: #f8f8f8;
+}
+
+.header-section {
+    background-image: url('your-background-image.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header-section p {
+    font-size: 18px;
+}
+
+.about-content {
+    padding: 40px 0;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+}
+.logo {
+    max-width: 40px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add margin to separate the logo from navigation links */
+  }
+  
